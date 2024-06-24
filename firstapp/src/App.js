@@ -1,13 +1,15 @@
 
 import './App.css';
-import First from './First';
+// import First from './First';
+import Navbar from './ClassAndFunctComponents';
 
 function App() {
   return (
     
     <div>
-      <h1>Hello </h1>
-      <First></First>
+      <h1>Hello this is app</h1>
+      {/* <First></First> */}
+      <Navbar />
     </div>
   );
 }
