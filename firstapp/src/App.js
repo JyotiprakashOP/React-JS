@@ -7,7 +7,9 @@ import './App.css';
 
 // import ChildProps from './ChildProps';
 
-import DataBinding from './DataBinding';
+// import DataBinding from './DataBinding';
+
+import State from './State';
 
 
 
@@ -15,10 +17,10 @@ function App() {
   // let user={name:"johnny" ,age:21,address:'blr'}
 
   //this is databinding
-  const getData=(str)=>{
-    console.log(str)
+  // const getData=(str)=>{
+  //   console.log(str)
 
-  }
+  // }
   return (
     
     <div>
@@ -35,7 +37,9 @@ function App() {
         {user.name}
       </ChildProps> */}
       
-      <DataBinding getData={getData}/>
+      {/* <DataBinding getData={getData}/> */}
+
+      <State />
 
     </div>
   );

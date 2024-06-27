@@ -14,7 +14,6 @@ class Navbar extends React.Component{
                 <h2>{this.props.name}</h2>
                 <h2>{this.props.age}</h2>
                 <h2>{this.props.gender}</h2>
-
                 <h2>Address:{this.props.add}</h2>
             </div>
         )
@@ -22,7 +21,6 @@ class Navbar extends React.Component{
 }
 Navbar.defaultProps={
     name:"name is not available",
-    
     add:"Address is not available",
 }
 
