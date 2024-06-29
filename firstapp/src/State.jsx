@@ -26,7 +26,7 @@
 
 //     render(){
 //         return(
-//             <div>
+//             <React.Fragment>
 //                 <h1>{this.state.count}</h1>
 //                 <button onClick={this.Increment}>+</button>
 //                 <button onClick={this.Decrement}>-</button>
@@ -36,7 +36,7 @@
 //                     }}></div>
 //                 <button onClick={this.changeColor}>Change color</button>
                 
-//             </div>
+//             </React.Fragment>
 //         )
 //     }
 // }
@@ -46,7 +46,7 @@
 
 //this is function based component;
 
-import {useState} from "react";
+import React,{useState} from "react";
 
 const State=()=>{
     let [count,setCount]=useState(0);
@@ -72,14 +72,14 @@ const State=()=>{
         return color;
     }
     return(
-        <div>
+        <>
             <h1>{count}</h1>
             <button onClick={Increment}>Increase</button>
             <button onClick={Decrement}>Decrease</button>
             <div style={{height:'300px',width:'500px',backgroundColor:color}}></div>
             <button onClick={changeColor}>Change Color</button>
 
-        </div>
+        </>
     )
 }
 export default State;

@@ -1,6 +1,6 @@
 import React from "react";
 // import pic from "./Background.png"
-import "./First.css"
+// import "./First.css"
 
 function First(){
     

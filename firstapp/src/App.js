@@ -9,7 +9,11 @@ import './App.css';
 
 // import DataBinding from './DataBinding';
 
-import State from './State';
+// import State from './State';
+
+// import Condition from './ConditionalRendering';
+
+import Function from './Function';
 
 
 
@@ -24,7 +28,7 @@ function App() {
   return (
     
     <div>
-      <h1>Hello this is app.js</h1>
+      {/* <h1>Hello this is app.js</h1> */}
       {/* <First></First> */}
       
       {/* <Navbar name={"johnny"} age={22} gender={'male'} /> */}
@@ -39,7 +43,13 @@ function App() {
       
       {/* <DataBinding getData={getData}/> */}
 
-      <State />
+      {/* <State /> */}
+
+      {/* <Condition/> */}
+
+      <Function></Function>
+
+      
 
     </div>
   );
