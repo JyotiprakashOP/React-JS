@@ -13,7 +13,9 @@ import './App.css';
 
 // import Condition from './ConditionalRendering';
 
-import Function from './Function';
+// import Function from './Function';
+
+import UseRef from './UseRef';
 
 
 
@@ -47,9 +49,9 @@ function App() {
 
       {/* <Condition/> */}
 
-      <Function></Function>
+      {/* <Function></Function> */}
 
-      
+      <UseRef/>
 
     </div>
   );
